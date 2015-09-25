@@ -1,0 +1,29 @@
+How start a node server:
+
+	
+	node app.js
+	node app.js --debug
+	npm start
+	nodemon app.js
+
+Packages to automatically restart server when code changes:
+
+	nodemon or supervisor
+
+Package Installation:
+
+		npm install -g <packagename> 	//-g is to install globally
+		npm install <packagename> 	// to intall at the folder
+		npm install <packagename> --save // to intall at the folder and update the package.json file
+
+Debugging:
+	Have package node-inspector installed
+	start server in debug mode //node app.js --debug
+	
+node-inspector //needs python
+
+
+Web Site Templates:
+express
+
+
